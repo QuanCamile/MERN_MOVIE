@@ -21,11 +21,15 @@ const MainLayout = () => {
                 overflow="hidden"
                 minHeight="100vh"
             >
-
+                <Outlet/>
             </Box>
             {/* main */}
 
         </Box>
+
+        {/* footer */}
+        {/* footer */}
+
     </>
   );
 };
